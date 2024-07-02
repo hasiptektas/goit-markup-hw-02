@@ -17,7 +17,7 @@ h1 {
     font-size: 56px;
     line-height: 1.07;
     font-weight: bold;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 h2 {
@@ -62,7 +62,11 @@ h3 {
     text-decoration: underline;
 }
 
-.link:hover, .link:focus {
+.link:hover {
+    background-color: #404bbf;  
+}
+
+.link:focus {
     background-color: #404bbf;
 }
 
