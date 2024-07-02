@@ -49,7 +49,7 @@ h3 {
     letter-spacing: 0.03em;
 }
 .adddress {
-    font-style: italic;
+    font-style: normal;
 }
 
 .link {
@@ -67,6 +67,18 @@ h3 {
 }
 
 .link:focus {
+    background-color: #404bbf;
+}
+
+.page-nav a {
+    color:#434455;
+}
+
+.page-nav a:hover{
+    background-color: #404bbf;
+}
+
+.page-nav a:focus{
     background-color: #404bbf;
 }
 
@@ -135,6 +147,6 @@ footer {
 }
 
 .span {
-    color: #2e2f42;
+    color: #F4F4FD;
 }
 
