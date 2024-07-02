@@ -48,7 +48,7 @@ h3 {
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
-.adddress {
+.address{
     font-style: normal;
 }
 
@@ -62,21 +62,18 @@ h3 {
     text-decoration: underline;
 }
 
-.link:hover {
-    background-color: #404bbf;  
+.page-nav ul li:hover {
+    color: #404bbf;
 }
 
-.link:focus {
-    background-color: #404bbf;
+.page-nav ul li:hover {
+    color: #404bbf;
 }
 
-.page-nav a {
+.page-nav ul li {
     color:#434455;
 }
 
-.page-nav a:hover{
-    background-color: #404bbf;
-}
 
 .page-nav a:focus{
     background-color: #404bbf;
@@ -147,6 +144,10 @@ footer {
 }
 
 .span {
+    color: #2e2f42
+}
+
+.footer-span {
     color: #F4F4FD;
 }
 
