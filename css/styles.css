@@ -62,15 +62,23 @@ h3 {
     text-decoration: underline;
 }
 
-.page-nav ul li:hover {
+.link:hover {
+    color: #404BBF;
+}
+
+.link:focus {
+    color: #404BBF;
+}
+
+.page-nav ul li .link:hover {
     color: #404bbf;
 }
 
-.page-nav ul li:hover {
+.page-nav ul li .link:hover {
     color: #404bbf;
 }
 
-.page-nav ul li {
+.page-nav ul li .link{
     color:#434455;
 }
 
