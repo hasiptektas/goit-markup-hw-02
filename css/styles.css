@@ -1,0 +1,95 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing:2%;
+}
+
+h1 {
+    font-family: inherit;
+    color: inherit;
+    font-size: 56px;
+    line-height: 1.0714285714285714;
+    font-weight: bold;
+    letter-spacing: inherit;
+}
+
+h2 {
+    font-family: inherit;
+    color: inherit;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.666666666666667;
+    letter-spacing: inherit;
+}
+
+h3 {
+    font-family: inherit;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 3;
+    letter-spacing: inherit;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: inherit;
+    font-size: 18px;
+    line-height: 1.166666666666667;
+    letter-spacing: 3%;
+}
+
+.link {
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+    line-height: 1.333333333333333;
+    letter-spacing: 4%;
+    text-decoration: underline;
+}
+
+button {
+    font-weight: 500;
+    color: white;
+    border: none;
+    background-color: #4D5AE5;
+    letter-spacing: 4%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #404BBF;
+}
+
+footer {
+    background-color: #2E2F42;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    text-align: center;
+    color: white;
+}
+
+.section-our-team {
+    background-color: #F4F4FD;
+}
+
+.section-our-team ul li {
+    background-color: white;
+}
+
+.section-our-team h2 {
+    text-align: center;
+}
+
+.footer-text {
+    color: white;
+}
+
