@@ -7,6 +7,10 @@ body {
     letter-spacing:2%;
 }
 
+p{
+    letter-spacing: 0.02em;
+}
+
 h1 {
     font-family: inherit;
     color: inherit;
@@ -23,7 +27,7 @@ h2 {
     font-weight: bold;
     text-transform: capitalize;
     line-height: 1.11;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 h3 {
@@ -32,7 +36,7 @@ h3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .logo {
@@ -42,10 +46,10 @@ h3 {
     font-size: 18px;
     text-transform: uppercase;
     line-height: 1.17;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 .adddress {
-    font-style: normal;
+    font-style: italic;
 }
 
 .link {
@@ -53,7 +57,8 @@ h3 {
     color: #404bbf;
     font-size: inherit;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     text-decoration: underline;
 }
 
@@ -67,7 +72,7 @@ button {
     border: none;
     background-color: #4D5AE5;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
@@ -123,5 +128,9 @@ footer {
 .footer-text {
     color:  #F4F4FD;
     letter-spacing: 2%;
+}
+
+.span {
+    color: #2e2f42;
 }
 
