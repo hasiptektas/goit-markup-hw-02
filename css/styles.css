@@ -1,4 +1,5 @@
 body {
+    background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     color: #434455;
     font-size: 16px;
@@ -10,45 +11,54 @@ h1 {
     font-family: inherit;
     color: inherit;
     font-size: 56px;
-    line-height: 1.0714285714285714;
+    line-height: 1.07;
     font-weight: bold;
-    letter-spacing: inherit;
+    letter-spacing: 2%;
 }
 
 h2 {
     font-family: inherit;
-    color: inherit;
+    color: #2e2f42;
     font-size: 36px;
     font-weight: bold;
-    line-height: 1.666666666666667;
-    letter-spacing: inherit;
+    text-transform: capitalize;
+    line-height: 1.11;
+    letter-spacing: 2%;
 }
 
 h3 {
     font-family: inherit;
-    color: inherit;
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 3;
-    letter-spacing: inherit;
+    line-height: 1.2;
+    letter-spacing: 2%;
 }
 
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
-    color: inherit;
+    color: #4d5ae5;
     font-size: 18px;
-    line-height: 1.166666666666667;
+    text-transform: uppercase;
+    line-height: 1.17;
     letter-spacing: 3%;
+}
+.adddress {
+    font-style: normal;
 }
 
 .link {
     font-family: inherit;
-    color: inherit;
+    color: #404bbf;
     font-size: inherit;
-    line-height: 1.333333333333333;
-    letter-spacing: 4%;
+    line-height: 1.5;
+    letter-spacing: 2%;
     text-decoration: underline;
+}
+
+.link:hover, .link:focus {
+    background-color: #404bbf;
 }
 
 button {
@@ -56,11 +66,12 @@ button {
     color: white;
     border: none;
     background-color: #4D5AE5;
+    line-height: 1.5;
     letter-spacing: 4%;
     cursor: pointer;
 }
 
-button:hover {
+button:hover, button:focus {
     background-color: #404BBF;
 }
 
@@ -81,19 +92,36 @@ footer {
     background-color: #F4F4FD;
 }
 
+
+
 .section-our-team ul li {
     background-color: white;
 }
 
 .section-our-team h2 {
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 2%;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.section-our-team h3 {
+    line-height: 1.2;
+    letter-spacing: 2%;
+    color: #2e2f42;
 }
 
 .section-our-portfolio-header {
     text-align: center;
 }
 
+.section-our-features {
+    letter-spacing: 2%;
+}
+
 .footer-text {
-    color: white;
+    color:  #F4F4FD;
+    letter-spacing: 2%;
 }
 
